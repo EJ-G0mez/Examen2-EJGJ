@@ -1,5 +1,7 @@
 const mongoose = require('mongoose')
 
+//Como una ciudad ES un lugar, nose me hace mucho sentido el porque deberían ser dos esquemas.
+
 const LugarSchema = mongoose.Schema({
     _id: mongoose.Schema.Types.ObjectId,
     nombre:{
